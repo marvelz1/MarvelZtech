@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MarvelZ Tech Company</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<!-- Facebook Open Graph Tags -->
+<meta property="og:title" content="MarvelZ Tech Company">
+<meta property="og:description" content="Professional websites, branding, and full digital business setup. Check our portfolio now!">
+<meta property="og:image" content="https://marvelz1.github.io/marvelztech/logo.png">
+<meta property="og:url" content="https://marvelz1.github.io/marvelztech/">
+<meta property="og:type" content="website">
+
+<!-- Optional: Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MarvelZ Tech Company">
+<meta name="twitter:description" content="Professional websites, branding, and full digital business setup. Check our portfolio now!">
+<meta name="twitter:image" content="https://marvelz1.github.io/marvelztech/logo.png">
+
+<style>
+/* Your existing CSS here */
+</style>
+</head>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:linear-gradient(135deg,#0f0f14,#1a1a22);
+color:#fff;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:rgba(0,0,0,0.6);
+backdrop-filter:blur(10px);
+position:fixed;
+width:100%;
+top:0;
+z-index:1000;
+}
+
+header img{
+height:55px;
+}
+
+nav a{
+color:#fff;
+margin-left:30px;
+text-decoration:none;
+font-weight:500;
+position:relative;
+}
+
+nav a::after{
+content:"";
+width:0;
+height:2px;
+background:#00d4ff;
+position:absolute;
+left:0;
+bottom:-5px;
+transition:0.3s;
+}
+
+nav a:hover::after{
+width:100%;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:0 20px;
+}
+
+.hero h1{
+font-size:50px;
+background:linear-gradient(to right,#00d4ff,#0099ff);
+-webkit-background-clip:text;
+color:transparent;
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:700px;
+color:#ccc;
+font-size:18px;
+margin-bottom:40px;
+}
+
+.btn{
+padding:15px 35px;
+border-radius:30px;
+background:linear-gradient(to right,#00d4ff,#0099ff);
+color:#000;
+font-weight:600;
+text-decoration:none;
+transition:0.3s;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+box-shadow:0 10px 20px rgba(0,212,255,0.4);
+}
+
+.section{
+padding:100px 10%;
+text-align:center;
+}
+
+.section h2{
+font-size:36px;
+margin-bottom:50px;
+color:#00d4ff;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:40px;
+}
+
+.card{
+background:#1c1c25;
+padding:40px 30px;
+border-radius:15px;
+transition:0.4s;
+border:1px solid rgba(255,255,255,0.05);
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 20px 40px rgba(0,0,0,0.6);
+}
+
+.card h3{
+margin-bottom:15px;
+color:#00d4ff;
+}
+
+.card p{
+color:#bbb;
+}
+
+footer{
+background:#0d0d12;
+padding:60px 10%;
+text-align:center;
+}
+
+footer h3{
+color:#00d4ff;
+margin-bottom:20px;
+}
+
+footer p{
+color:#aaa;
+margin:10px 0;
+}
+
+.whatsapp-btn{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#25D366;
+color:#fff;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 10px 25px rgba(0,0,0,0.4);
+transition:0.3s;
+}
+
+.whatsapp-btn:hover{
+transform:scale(1.1);
+}
+
+@media(max-width:768px){
+.hero h1{
+font-size:35px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<img src="logo.png" alt="MarvelZ Tech Logo">
+
+<nav>
+<a href="#services">Services</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Transforming Businesses Through Technology</h1>
+<p>MarvelZ Tech Company delivers powerful digital solutions, professional websites, branding, and business automation systems that help companies grow faster in the digital world.</p>
+<a href="#contact" class="btn">Start Your Project</a>
+</section>
+
+<section class="section" id="services">
+<h2>Our Services</h2>
+
+<div class="services">
+<div class="card">
+<h3>Website Development</h3>
+<p>Premium responsive websites designed for performance, speed, and customer conversion.</p>
+</div>
+
+<div class="card">
+<h3>Business Branding</h3>
+<p>Professional logo design, identity systems, and complete digital brand positioning.</p>
+</div>
+
+<div class="card">
+<h3>Digital Business Setup</h3>
+<p>Full starter package including website, email, WhatsApp integration and online presence launch.</p>
+</div>
+</div>
+</section>
+  <section class="section" id="portfolio">
+<h2>Our Work</h2>
+<div class="services">
+  <div class="card">
+    <img src="portfolio1.png" alt="Project 1" style="width:100%;border-radius:10px;margin-bottom:10px;">
+    <h3>Business Website</h3>
+  </div>
+  <div class="card">
+    <img src="portfolio2.png" alt="Project 2" style="width:100%;border-radius:10px;margin-bottom:10px;">
+    <h3>E-Commerce Website</h3>
+  </div>
+  <div class="card">
+    <img src="portfolio3.png" alt="Project 3" style="width:100%;border-radius:10px;margin-bottom:10px;">
+    <h3>School Website</h3>
+  </div>
+  <div class="card">
+    <img src="portfolio4.png" alt="Project 4" style="width:100%;border-radius:10px;margin-bottom:10px;">
+    <h3>Branding Design 1</h3>
+  </div>
+  <div class="card">
+    <img src="portfolio5.png" alt="Project 5" style="width:100%;border-radius:10px;margin-bottom:10px;">
+    <h3>Branding Design 2</h3>
+  </div>
+  <div class="card">
+    <img src="portfolio6.png" alt="Project 6" style="width:100%;border-radius:10px;margin-bottom:10px;">
+    <h3>Digital Setup Mockup</h3>
+  </div>
+</div>
+</section>
+
+<section class="section" id="about">
+<h2>Why MarvelZ Tech?</h2>
+<p style="max-width:800px;margin:auto;color:#bbb;">
+We combine innovation, strategy, and modern technology to build systems that don’t just look good — they generate results. Our goal is to help businesses stand out and scale digitally with confidence.
+</p>
+</section>
+
+<footer id="contact">
+<section class="section" id="contact">
+<h2>Contact Us</h2>
+<p style="max-width:800px;margin:auto;color:#bbb;">Have a project or question? Send us a message and we’ll get back to you promptly.</p>
+
+<form id="contactForm" 
+  action="https://formspree.io/f/xzdajvwy"
+  method="POST"
+  style="max-width:600px;margin:40px auto;display:flex;flex-direction:column;gap:15px;">
+  
+  
+<input type="text" name="name" placeholder="Your Name" required style="padding:12px;border-radius:8px;border:none;">
+<input type="email" name="email" placeholder="Your Email" required style="padding:12px;border-radius:8px;border:none;">
+<textarea name="message" rows="5" placeholder="Your Message" required style="padding:12px;border-radius:8px;border:none;"></textarea>
+<button type="submit" class="btn" style="align-self:flex-start;">Send Message</button>
+<p id="formMessage" style="color:#00d4ff;font-weight:bold;"></p>
+</form>
+</section>
+<p>© 2026 MarvelZ Tech Company. All Rights Reserved.</p>
+</footer>
+
+<a href="https://wa.me/2348068070989" class="whatsapp-btn">Chat on WhatsApp</a>
+<script>
+const form = document.getElementById('contactForm');
+const msg = document.getElementById('formMessage');
+
+form.addEventListener('submit', e => {
+    msg.textContent = "Sending...";
+    setTimeout(() => {
+        msg.textContent = "Thank you! Your message has been sent.";
+        form.reset();
+    }, 1000);
+});
+</script>
+</body>
+</html>
